@@ -50,11 +50,32 @@ Visual Studio Code
 5. Installation Steps
    
 Install PHP and verify the installation using php -v.
-![Php versionj](Screenshots/php-version.jpg)            
+
+![Php version](Screenshots/php-version.jpg)
+
 Install Composer and verify using composer -V.
+
+![Composer version](Screenshots/composer-version.jpg) 
+
+Install the Laravel Installer globally using Composer
+
+composer global require laravel/installer
+
+php artisan --version or php artisan -V
+
+![Laravel version](Screenshots/laravel-version.jpg) 
+
 Install Git and verify using git --version.
+
+![Git version](Screenshots/git-version.jpg) 
+
 Install MySQL and ensure the database service is running.
+
+![Mysql](Screenshots/mysql-version.jpg) 
+
 Open Visual Studio Code.
+
+![vscode](Screenshots/vscode.jpg) 
 
 Create a new Laravel project:
 
@@ -68,7 +89,11 @@ Start the Laravel development server:
 
 php artisan serve
 
+![Serve](Screenshots/artisan-reserve.jpg) 
+
 Open http://127.0.0.1:8000 in your web browser to verify that the Laravel homepage is displayed successfully.
+
+![Output](Screenshots/hello-laravel-homepage.jpg) 
 
 6. Project Structure
 
@@ -115,7 +140,42 @@ Installed missing Composer dependencies and updated packages.
 Verified that MySQL services were running before connecting Laravel.
 Cleared Laravel configuration and cache using Artisan commands whenever configuration changes were made.
 
-9. Reflection
+9.Screenshots
+
+PHP version:
+
+![Php version](Screenshots/php-version.jpg)
+
+Composer version:
+
+![Composer version](Screenshots/composer-version.jpg) 
+
+Laravel version:
+
+![Laravel version](Screenshots/laravel-version.jpg) 
+
+Git Version:
+
+![Git version](Screenshots/git-version.jpg) 
+
+Mysql Version:
+
+![Mysql](Screenshots/mysql-version.jpg) 
+
+Vscode:
+
+![vscode](Screenshots/vscode.jpg) 
+
+Using php artisan serve:
+
+![Serve](Screenshots/artisan-reserve.jpg) 
+
+The output homepage:
+
+![Output](Screenshots/hello-laravel-homepage.jpg) 
+
+
+10. Reflection
     
 This activity provided valuable hands-on experience in setting up a professional Laravel development environment from scratch. Before starting this project, I had only a basic understanding of Laravel and the tools required to develop web applications using the framework. Through this activity, I learned how PHP, Composer, Git, MySQL, and Visual Studio Code work together to create an efficient and organized development environment. I also became familiar with Laravel's basic folder structure and understood the purpose of its core directories, such as app, routes, resources, public, config, and database, which play important roles in organizing and maintaining the application.
 One of the biggest challenges I encountered was configuring the development environment correctly. During the installation process, I experienced issues related to missing PHP extensions and database driver configuration, which prevented Laravel from functioning properly. I also encountered errors while connecting the application to the database and configuring the .env file. Troubleshooting these problems required patience, careful reading of error messages, and researching possible solutions from the official Laravel documentation and online resources. Although these challenges were frustrating at first, successfully resolving them improved my problem-solving skills and gave me a better understanding of how Laravel and its supporting tools work together. This experience also taught me the importance of carefully following installation procedures and verifying software configurations before starting a development project.
