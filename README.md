@@ -50,6 +50,7 @@ Visual Studio Code
 5. Installation Steps
    
 Install PHP and verify the installation using php -v.
+![Laravel Homepage Screenshot](Screenshots/php-version.png)
 Install Composer and verify using composer -V.
 Install Git and verify using git --version.
 Install MySQL and ensure the database service is running.
